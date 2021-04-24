@@ -7,20 +7,20 @@ public class Main {
 		//persistency = veri tabaný, txt dosyasý//bir dosyayý yazmak ve saklayabilmek için database yazmak persistancy dir
 		Product product1 = new Product();
 		product1.id = 1;
-		product1.name = "Lenovo V114";
+		product1.name = "Lenovo V14";
 		product1.detail = "16 gb ram";
 		product1.unitPrice = 15000;
 		
 		Product product2 = new Product();
 		product2.id = 1;
-		product2.name = "Lenovo V145";
+		product2.name = "Lenovo V14";
 		product2.detail = "32 gb ram";
 		product2.unitPrice = 16000;
 
 		
 		Product product3 = new Product(1, "lenavo v14", "16 gb ram", 1600);
 		product3.id = 1;
-		product3.name = "Lenovo V12";
+		product3.name = "Lenovo V14";
 		product3.detail = "16 gb ram";
 		product3.unitPrice = 16000;
 
@@ -49,9 +49,7 @@ public class Main {
 		
 		ProductManager productManager = new ProductManager();
 		
-		productManager.addToCart(product1);
-		productManager.addToCart(product2);
-		productManager.addToCart(product3);
+		productManager.addToCart();
 		
 		
 		
