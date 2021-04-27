@@ -11,12 +11,26 @@ public class Main {
 		}
 		System.out.println(toplam);
 	};
+	
+	public static void print(String argument) {
+	System.out.println(argument);
+	}
 
 	public static void main(String[] args) {
+		//study1
 		int[] dizi = {3,2,1,5,5,2,33};
 		//camel case
 		toplaHemen(dizi);
+		//***********
+		//study2
+		TestClass testClass = new TestClass();
+		testClass.setName("happy ramadan");
+		String name = testClass.getName();
+		print(name);
 		
+
+		//***********
+		//Assignment2
 		Course course1 = new Course("Java React", "Engin Demiroð", "2 Ay", "Arkadaþlar ödev çok önemli biliyonuz (açýklama)");
 		Course course2 = new Course();
 		course2.Title = "Linux";
