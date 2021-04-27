@@ -3,8 +3,20 @@ package odev2;
 import odev2.Course;
 
 public class Main {
+	
+	public static void toplaHemen(int... topla) {
+		int toplam = 0;
+		for (int i : topla) {
+			toplam += i;
+		}
+		System.out.println(toplam);
+	};
 
 	public static void main(String[] args) {
+		int[] dizi = {3,2,1,5,5,2,33};
+		//camel case
+		toplaHemen(dizi);
+		
 		Course course1 = new Course("Java React", "Engin Demiroð", "2 Ay", "Arkadaþlar ödev çok önemli biliyonuz (açýklama)");
 		Course course2 = new Course();
 		course2.Title = "Linux";
