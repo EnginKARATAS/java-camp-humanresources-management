@@ -7,15 +7,15 @@ public class CustomerManager {
 		this.loggers = logger;
 	}
 	public void add(Customer customer) {
-		for(Logger log : loggers) {
+		 
 			System.out.println("müþteri eklendi " + customer);
-			log.log("Musteri " + customer.getFirstName());	
-		}
+			 
+			Utils.runLoggers(loggers, "eklendi");
+				
+	 
 	}
 	
-	public void delete(Customer customer) {
-		for(Logger log : loggers) {
-			System.out.println("müþteri eklendi " + customer);
- 		}	
-		}
+	public void delete(Customer customer){
+		//Utils.runLoggers(loggers, "silindi");
+	}
 }

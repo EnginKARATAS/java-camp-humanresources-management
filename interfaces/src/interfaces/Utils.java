@@ -1,8 +1,11 @@
 package interfaces;
 //statik olaylarýný anlamak adýna 
 public class Utils {
-	public void Utils(Logger[] logs, String logs) {
-		
+	
+	public static void runLoggers(Logger[] loggers, String message) {
+		for(Logger logger : loggers) {
+			logger.log(message + " merhaba ben utils utilstir benim adým");
+		}
 	}
 
 }

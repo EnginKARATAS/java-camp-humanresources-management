@@ -6,6 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		Logger[] loggers = { new SmsLogger(), new DatabaseLogger()};
+		
 		CustomerManager customerManager = new CustomerManager(loggers);
 		
 		Customer engin = new Customer(1,"Engin","Karatas");
