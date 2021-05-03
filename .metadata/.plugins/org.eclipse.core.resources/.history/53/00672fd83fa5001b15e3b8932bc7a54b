@@ -1,8 +1,0 @@
-package oopIntro;
-
-public class ProductManager {
-	//iþ sýnýfý na iþ fonku yazalým //cart=sepet
-	public void addToCart() {
-		System.out.println("sepete ekleme kodu çaðýrýldý");
-	}
-}

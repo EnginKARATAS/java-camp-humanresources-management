@@ -9,4 +9,9 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="odev3.SuperAdminTestManager"/>
     <fullyQualifiedTypeName name="odev3.Admin"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.Logger"/>
+    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
+    <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="interfaces.Utils"/>
 </qualifiedTypeNameHistroy>
