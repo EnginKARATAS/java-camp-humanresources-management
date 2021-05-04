@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
     <fullyQualifiedTypeName name="odev3.UserManager"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="odev3.SuperAdminTestManager"/>
     <fullyQualifiedTypeName name="odev3.Admin"/>
     <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
@@ -14,4 +13,17 @@
     <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
     <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
     <fullyQualifiedTypeName name="interfaces.Utils"/>
+    <fullyQualifiedTypeName name="odev4.OracleDatabaseManager"/>
+    <fullyQualifiedTypeName name="odev4.CustomerManager"/>
+    <fullyQualifiedTypeName name="odev4.BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="Abstract.Entity"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="Concrate.NeroCustomerService"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Concrate.SturbucksCustomerService"/>
+    <fullyQualifiedTypeName name="Abstract.BaseCustomerService"/>
+    <fullyQualifiedTypeName name="Entities.Customer"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="Concrate.CustomerCheckManager"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
 </qualifiedTypeNameHistroy>
