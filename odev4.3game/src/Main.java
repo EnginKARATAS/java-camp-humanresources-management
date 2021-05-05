@@ -36,7 +36,7 @@ public class Main {
 		ProductService productManager  = new ProductManager();
 		productManager.add(game1);
  		productManager.delete(game2);
-		productManager.update(game2);
+		productManager.update(game1);
 
 		OrderManager orderManager = new OrderManager();
 		orderManager.add(player1, game1, campaign1);

@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="odev4.OracleDatabaseManager"/>
     <fullyQualifiedTypeName name="odev4.CustomerManager"/>
     <fullyQualifiedTypeName name="odev4.BaseDatabaseManager"/>
-    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
     <fullyQualifiedTypeName name="Concrate.NeroCustomerService"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="Concrate.SturbucksCustomerService"/>
@@ -27,10 +26,19 @@
     <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
     <fullyQualifiedTypeName name="Abstract.CustomerValidationService"/>
     <fullyQualifiedTypeName name="Abstract.Entity"/>
-    <fullyQualifiedTypeName name="Entity.Customer"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="Abstract.GameService"/>
-    <fullyQualifiedTypeName name="Entity.Game"/>
-    <fullyQualifiedTypeName name="Abstract.ProductService"/>
     <fullyQualifiedTypeName name="Abstract.CampaignService"/>
+    <fullyQualifiedTypeName name="Abstract.ProductService"/>
+    <fullyQualifiedTypeName name="Entity.Game"/>
+    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
+    <fullyQualifiedTypeName name="Abstract.OrderService"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="Concrate.OrderManager"/>
+    <fullyQualifiedTypeName name="Entity.Campaign"/>
+    <fullyQualifiedTypeName name="Concrate.ProductManager"/>
+    <fullyQualifiedTypeName name="Entity.Customer"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="Abstract.CheckService"/>
+    <fullyQualifiedTypeName name="Concrate.CustomerManager"/>
+    <fullyQualifiedTypeName name="Concrate.EStateCheckService"/>
 </qualifiedTypeNameHistroy>
