@@ -1,11 +1,9 @@
 package Entity;
 
 public class Customer implements Entity{
-
 	private int id;
 	private String firstName;
 	private String lastName;
-	
 	
 	public int getId() {
 		return id;
@@ -25,6 +23,4 @@ public class Customer implements Entity{
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
-	
 }

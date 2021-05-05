@@ -1,5 +1,6 @@
-package Abstract;
+package Entity;
 
 public interface Entity {
+
 
 }
