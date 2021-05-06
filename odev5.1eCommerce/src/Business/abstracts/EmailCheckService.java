@@ -1,5 +1,5 @@
 package Business.abstracts;
 
-public class EmailCheckService {
-
+public interface EmailCheckService {
+	boolean isEmailExists(String email);
 }

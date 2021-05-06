@@ -1,5 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import Business.abstracts.CustomerValidationService;
+import Business.abstracts.EmailCheckService;
+import Business.concrates.CustomerManager;
 import Business.concrates.CustomerValidationManager;
+import Business.concrates.SMTPEmailManager;
+import Business.concrates.TextCheckManager;
+import core.abstracts.CheckService;
+import core.abstracts.TextCheckService;
 import core.concrate.JavaPatternCheckManager;
+import dataAccess.concrates.AbcCustomerDao;
 import entity.concrates.Customer;
 
 public class Main {
@@ -14,9 +25,25 @@ public class Main {
 		customer.setEmail("enginkaratas99@gmail.com");
 		customer.setPassword("abcd");
 		
-		CustomerValidationManager customerManager = new CustomerValidationManager();
-		customerManager.login(customer);
-		JavaPatternCheckManager.checkWithRegex(null, null)
+		Customer customer2 = new Customer();
+		customer.setId(0);
+		customer.setFirstName("Elif");
+		customer.setLastName("Karataþ");
+		customer.setEmail("elif@gmail.com");
+		customer.setPassword("123minecraft");
+		
+		List<Customer> customers = new ArrayList<Customer>();
+		customers.add(customer);
+		customers.add(customer2);
+	
+		CustomerManager customerManager = new CustomerManager(new AbcCustomerDao());
+		TextCheckService contextCheckManager = new TextCheckManager(new JavaPatternCheckManager());
+		EmailCheckService emailCheckManager = new SMTPEmailManager();
+				
+		CustomerValidationManager customerValidationManager = new CustomerValidationManager();
+		customerManager.login(customers);
+		
+ 
 		
 	}
 

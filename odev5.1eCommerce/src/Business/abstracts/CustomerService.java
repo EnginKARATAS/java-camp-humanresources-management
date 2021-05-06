@@ -1,11 +1,11 @@
-package dataAccess.abstracts;
+package Business.abstracts;
 
- 
 import entity.concrates.Customer;
 
-public interface CustomerDao {
+public interface CustomerService {
 	void add(Customer customer);
 	void delete(Customer customer);
 	void update(Customer customer);
-	Customer get(int customer);
+	Customer get(int id);
+	
 }
