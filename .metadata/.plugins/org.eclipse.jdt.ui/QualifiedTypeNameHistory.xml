@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.Content"/>
     <fullyQualifiedTypeName name="inheritance.AssocCustomer"/>
     <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
@@ -36,9 +34,30 @@
     <fullyQualifiedTypeName name="Concrate.OrderManager"/>
     <fullyQualifiedTypeName name="Entity.Campaign"/>
     <fullyQualifiedTypeName name="Concrate.ProductManager"/>
-    <fullyQualifiedTypeName name="Entity.Customer"/>
     <fullyQualifiedTypeName name="Abstract.CustomerService"/>
     <fullyQualifiedTypeName name="Abstract.CheckService"/>
     <fullyQualifiedTypeName name="Concrate.CustomerManager"/>
     <fullyQualifiedTypeName name="Concrate.EStateCheckService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concrates.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.Abstract.ProductService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.concrates.Product"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concrates.AbcProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.jLoggerManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.Concrate.ProductManager"/>
+    <fullyQualifiedTypeName name="dataAccess.Abstract.CustomerDao"/>
+    <fullyQualifiedTypeName name="Business.Concrate.CustomerValidationManager"/>
+    <fullyQualifiedTypeName name="Business.Abstract.CustomerValidationService"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern"/>
+    <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.identity.Selector.Matcher"/>
+    <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="Entity.Customer"/>
+    <fullyQualifiedTypeName name="entity.Customer"/>
+    <fullyQualifiedTypeName name="entity.concrates.Customer"/>
 </qualifiedTypeNameHistroy>
