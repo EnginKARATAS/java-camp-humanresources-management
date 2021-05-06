@@ -4,5 +4,5 @@ public interface TextCheckService {
  
 	boolean isEmailExists(String email);
 
-	boolean checkWithRegex(String text);
+	boolean checkWithRegex(String text, String email);
 }

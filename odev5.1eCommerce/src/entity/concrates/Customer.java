@@ -6,7 +6,6 @@ public class Customer {
 	private String lastName;
 	private String email;
 	private String password;
-	
 	public int getId() {
 		return id;
 	}
@@ -37,5 +36,5 @@ public class Customer {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+ 
 }

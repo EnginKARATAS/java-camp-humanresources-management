@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="inheritance.AssocCustomer"/>
-    <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
-    <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
-    <fullyQualifiedTypeName name="odev3.UserManager"/>
-    <fullyQualifiedTypeName name="odev3.SuperAdminTestManager"/>
-    <fullyQualifiedTypeName name="odev3.Admin"/>
-    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
-    <fullyQualifiedTypeName name="interfaces.Logger"/>
-    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
-    <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
-    <fullyQualifiedTypeName name="interfaces.Utils"/>
-    <fullyQualifiedTypeName name="odev4.OracleDatabaseManager"/>
-    <fullyQualifiedTypeName name="odev4.CustomerManager"/>
-    <fullyQualifiedTypeName name="odev4.BaseDatabaseManager"/>
     <fullyQualifiedTypeName name="Concrate.NeroCustomerService"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="Concrate.SturbucksCustomerService"/>
@@ -40,7 +26,6 @@
     <fullyQualifiedTypeName name="Concrate.EStateCheckService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concrates.HibernateProductDao"/>
     <fullyQualifiedTypeName name="nLayeredDemo.business.Abstract.ProductService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.entities.concrates.Product"/>
@@ -59,5 +44,20 @@
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="Entity.Customer"/>
     <fullyQualifiedTypeName name="entity.Customer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.UserDataHandler"/>
+    <fullyQualifiedTypeName name="Business.abstracts.UserService"/>
     <fullyQualifiedTypeName name="entity.concrates.Customer"/>
+    <fullyQualifiedTypeName name="dataAccess.abstracts.CustomerDao"/>
+    <fullyQualifiedTypeName name="Business.concrates.CustomerManager"/>
+    <fullyQualifiedTypeName name="dataAccess.concrates.AbcCustomerDao"/>
+    <fullyQualifiedTypeName name="Business.concrates.SMTPEmailManager"/>
+    <fullyQualifiedTypeName name="Business.concrates.CustomerValidationManager"/>
+    <fullyQualifiedTypeName name="Business.abstracts.CustomerValidationService"/>
+    <fullyQualifiedTypeName name="core.abstracts.CheckService"/>
+    <fullyQualifiedTypeName name="Business.concrates.TextCheckManager"/>
+    <fullyQualifiedTypeName name="core.concrate.JavaPatternCheckManager"/>
+    <fullyQualifiedTypeName name="core.abstracts.TextCheckService"/>
+    <fullyQualifiedTypeName name="Business.abstracts.EmailCheckService"/>
 </qualifiedTypeNameHistroy>

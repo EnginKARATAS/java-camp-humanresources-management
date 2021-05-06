@@ -2,7 +2,7 @@ package Business.concrates;
 
 import java.util.regex.Pattern;
 
-import Business.abstracts.EmailCheckService;
+import Business.abstracts.EmailService;
 import core.abstracts.TextCheckService;
 import core.concrate.JavaPatternCheckManager;
 
@@ -20,7 +20,7 @@ public class TextCheckManager implements TextCheckService {
 	}
 
 	@Override
-	public boolean checkWithRegex(String text) {
+	public boolean checkWithRegex(String text, String email) {
 		// TODO Auto-generated method stub
 		return false;
 	}
