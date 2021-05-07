@@ -1,13 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
-import Business.abstracts.CustomerValidationService;
 import Business.abstracts.EmailService;
 import Business.concrates.CustomerManager;
 import Business.concrates.CustomerValidationManager;
 import Business.concrates.SMTPEmailManager;
-import Business.concrates.TextCheckManager;
-import core.abstracts.CheckService;
 import core.abstracts.TextCheckService;
 import core.concrate.JavaPatternCheckManager;
 import dataAccess.concrates.AbcCustomerDao;
@@ -37,13 +35,15 @@ public class Main {
 		customers.add(customer2);
 	
 		CustomerManager customerManager = new CustomerManager(new AbcCustomerDao());
-		TextCheckService contextCheckManager = new TextCheckManager(new JavaPatternCheckManager());
+		TextCheckService contextCheckManager = new JavaPatternCheckManager();
 		EmailService emailCheckManager = new SMTPEmailManager();
 				
 		CustomerValidationManager customerValidationManager = new CustomerValidationManager(customerManager, contextCheckManager, emailCheckManager);
-			
+
+		System.out.println(Pattern.matches("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", "enginkaratas99@gmail.com"));
 		System.out.println(customer2.getPassword());
 		System.out.println(customer2.getPassword().length());
+		customerValidationManager.register("engin", "aaa", "engin@gmail.com", "abc123d");
 		customerValidationManager.login(customer2);
  
 		
