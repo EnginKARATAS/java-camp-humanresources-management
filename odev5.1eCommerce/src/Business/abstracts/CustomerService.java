@@ -7,5 +7,6 @@ public interface CustomerService {
 	void delete(Customer customer);
 	void update(Customer customer);
 	Customer get(int id);
+	boolean isCustomerExists(Customer customer);
 	
 }

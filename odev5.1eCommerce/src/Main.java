@@ -7,6 +7,7 @@ import Business.concrates.CustomerManager;
 import Business.concrates.CustomerValidationManager;
 import Business.concrates.SMTPEmailManager;
 import core.abstracts.TextCheckService;
+import core.concrate.EmailToken;
 import core.concrate.JavaPatternCheckManager;
 import dataAccess.concrates.AbcCustomerDao;
 import entity.concrates.Customer;
@@ -15,7 +16,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
 		Customer customer = new Customer();
 		customer.setId(0);
 		customer.setFirstName("Engin");
@@ -44,7 +45,7 @@ public class Main {
 		System.out.println(customer2.getPassword());
 		System.out.println(customer2.getPassword().length());
 		customerValidationManager.register("engin", "aaa", "engin@gmail.com", "abc123d");
-		customerValidationManager.login(customer2);
+ 		customerValidationManager.login(customer2);
  
 		
 	}

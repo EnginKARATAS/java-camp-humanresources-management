@@ -36,4 +36,12 @@ public class CustomerManager implements CustomerService {
 		return _customerDao.get(id);
 	}
 
+	@Override
+	public boolean isCustomerExists(Customer customer) {
+		// TODO Auto-generated method stub
+		System.out.println(customer.getId() + " idli user veritabanýndan varmý kontrol edildi" );
+		//dbde yok
+		return false;
+	}
+
 }

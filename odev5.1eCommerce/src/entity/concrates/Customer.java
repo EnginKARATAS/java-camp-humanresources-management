@@ -6,6 +6,14 @@ public class Customer {
 	private String lastName;
 	private String email;
 	private String password;
+	private boolean isActivated;
+	
+	public boolean isActivated() {
+		return isActivated;
+	}
+	public void setActivated(boolean isActivated) {
+		this.isActivated = isActivated;
+	}
 	public int getId() {
 		return id;
 	}
