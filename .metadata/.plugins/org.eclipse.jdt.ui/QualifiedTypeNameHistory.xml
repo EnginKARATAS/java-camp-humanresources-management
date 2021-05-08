@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Abstract.BaseCustomerService"/>
     <fullyQualifiedTypeName name="Entities.Customer"/>
     <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
     <fullyQualifiedTypeName name="Concrate.CustomerCheckManager"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.identity.Selector.Matcher"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+    <fullyQualifiedTypeName name="core.concrate.EmailToken"/>
 </qualifiedTypeNameHistroy>

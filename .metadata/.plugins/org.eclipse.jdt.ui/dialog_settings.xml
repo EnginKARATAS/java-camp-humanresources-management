@@ -98,4 +98,7 @@
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
+	</section>
 </section>
