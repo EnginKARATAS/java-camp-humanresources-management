@@ -17,7 +17,6 @@ public class SMTPEmailManager implements EmailService {
 		
 	}
  	
- 	@Override
  	public void responseMailWithToken(String token) {
 		// TODO Auto-generated method stub
 		System.out.println("databasede tokene sahip user arandý ve silindi");

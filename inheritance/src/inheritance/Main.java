@@ -22,7 +22,7 @@ public class Main {
 		Customer[] customers = new Customer[] {engin, hepsiburada, sorged};
 		customerManager.addMultiple(customers);
 		
-		FileLogger fl = new FileLogger();
+		//FileLogger fl = new FileLogger();
  	}
 
 }

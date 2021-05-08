@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Entities.Customer"/>
-    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
-    <fullyQualifiedTypeName name="Concrate.CustomerCheckManager"/>
-    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
-    <fullyQualifiedTypeName name="Abstract.CustomerValidationService"/>
-    <fullyQualifiedTypeName name="Abstract.Entity"/>
-    <fullyQualifiedTypeName name="Abstract.GameService"/>
-    <fullyQualifiedTypeName name="Abstract.CampaignService"/>
-    <fullyQualifiedTypeName name="Abstract.ProductService"/>
-    <fullyQualifiedTypeName name="Entity.Game"/>
-    <fullyQualifiedTypeName name="javax.swing.AbstractAction"/>
-    <fullyQualifiedTypeName name="Abstract.OrderService"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="Concrate.OrderManager"/>
-    <fullyQualifiedTypeName name="Entity.Campaign"/>
-    <fullyQualifiedTypeName name="Concrate.ProductManager"/>
-    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
     <fullyQualifiedTypeName name="Abstract.CheckService"/>
     <fullyQualifiedTypeName name="Concrate.CustomerManager"/>
     <fullyQualifiedTypeName name="Concrate.EStateCheckService"/>
@@ -38,7 +21,6 @@
     <fullyQualifiedTypeName name="Entity.Customer"/>
     <fullyQualifiedTypeName name="entity.Customer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.w3c.dom.UserDataHandler"/>
     <fullyQualifiedTypeName name="Business.abstracts.UserService"/>
     <fullyQualifiedTypeName name="entity.concrates.Customer"/>
@@ -60,4 +42,22 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.identity.Selector.Matcher"/>
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="core.concrate.EmailToken"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.api.controllers.ProductsController"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.entities.concrates.Product"/>
+    <fullyQualifiedTypeName name="jdk.jfr.DataAmount"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
 </qualifiedTypeNameHistroy>
