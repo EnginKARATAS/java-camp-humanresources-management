@@ -7,5 +7,4 @@ import kodlama.io.northwind.entities.concrates.Product;
 //entityrepository = JpaRepository
 public interface ProductDao extends JpaRepository<Product,Integer>{
 	
-
 }

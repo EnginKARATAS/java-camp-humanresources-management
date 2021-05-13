@@ -13,19 +13,15 @@ import kodlama.io.northwind.entities.concrates.Product;
  
 @RestController
 @RequestMapping("/api/products")
-public class ProductsController {
-	
-	
-	private ProductService productService;
-	
-	
+public class ProductController {
+		
+	private ProductService productService;	
+
 	@Autowired
-	public ProductsController(ProductService productService) {
+	public ProductController(ProductService productService) {
 		super();
 		this.productService = productService;
 	}
-
-
 
 	@GetMapping("/getall")
 	public List<Product> getAll(){
