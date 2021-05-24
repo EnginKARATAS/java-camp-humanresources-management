@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="nLayeredDemo.entities.concrates.Product"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concrates.AbcProductDao"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.jLoggerManager"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.business.Concrate.ProductManager"/>
-    <fullyQualifiedTypeName name="dataAccess.Abstract.CustomerDao"/>
-    <fullyQualifiedTypeName name="Business.Concrate.CustomerValidationManager"/>
-    <fullyQualifiedTypeName name="Business.Abstract.CustomerValidationService"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern"/>
-    <fullyQualifiedTypeName name="Entity.Customer"/>
-    <fullyQualifiedTypeName name="entity.Customer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="org.w3c.dom.UserDataHandler"/>
-    <fullyQualifiedTypeName name="Business.abstracts.UserService"/>
     <fullyQualifiedTypeName name="entity.concrates.Customer"/>
     <fullyQualifiedTypeName name="dataAccess.abstracts.CustomerDao"/>
     <fullyQualifiedTypeName name="Business.concrates.CustomerManager"/>
@@ -36,11 +20,7 @@
     <fullyQualifiedTypeName name="java.util.regex.Matcher"/>
     <fullyQualifiedTypeName name="core.concrate.EmailToken"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.api.controllers.ProductsController"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.business.abstracts.ProductService"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.ProductDao"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.entities.concrates.Product"/>
     <fullyQualifiedTypeName name="jdk.jfr.DataAmount"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.BatchSize"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -49,7 +29,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.concrates.JobManager"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.Job"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -58,6 +37,27 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.dataAccess.abstracts.JobDao"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
+    <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
+    <fullyQualifiedTypeName name="springfox.documentation.builders.RequestHandlerSelectors"/>
+    <fullyQualifiedTypeName name="springfox.documentation.builders.PathSelectors"/>
+    <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.Metadata"/>
+    <fullyQualifiedTypeName name="com.sun.net.httpserver.Authenticator.Result"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.DataResult"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.entities.concrates.Product"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.SuccessDataResult"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.SuccessResult"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.Result"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
 </qualifiedTypeNameHistroy>
