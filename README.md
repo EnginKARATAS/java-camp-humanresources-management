@@ -1,6 +1,7 @@
 
 # Human Resources Project
 ## _Gelişmiş İnsan Kaynakları Yönetim Sistemi_
+[Gelişmiş İnsan Kaynakları Yönetim Sistemi ](https://github.com/EnginKARATAS/javakamp/tree/main/hrmsJava)
 
 
 
