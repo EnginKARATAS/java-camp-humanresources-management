@@ -21,5 +21,7 @@ public class Job {
 	
 	@Column(name="title")
 	private String title;
+	@Column(name="content")
+	private String content;
 	Job(){}
 }

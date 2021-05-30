@@ -8,23 +8,27 @@ import kodlamaio.hrmsJava.business.abstracts.EmployerService;
 import kodlamaio.hrmsJava.business.abstracts.SystemUserValidationService;
 import kodlamaio.hrmsJava.core.abstracts.MailSenderService;
 import kodlamaio.hrmsJava.core.concrates.TextCheckManager;
+import kodlamaio.hrmsJava.core.utilities.results.DataResult;
 import kodlamaio.hrmsJava.core.utilities.results.ErrorResult;
 import kodlamaio.hrmsJava.core.utilities.results.Result;
+import kodlamaio.hrmsJava.core.utilities.results.SuccessDataResult;
 import kodlamaio.hrmsJava.core.utilities.results.SuccessResult;
+import kodlamaio.hrmsJava.dataAccess.abstracts.EmployerDao;
 
 public class EmployerManager implements EmployerService {
 	
 	private MailSenderService _mailSenderService;
-	public SystemUserValidationService _systemUserValidationService;
+	private SystemUserValidationService _systemUserValidationService;
+	private EmployerDao _employerDao;
 	
 	public EmployerManager(MailSenderService _mailSenderService) {
 		this._mailSenderService = _mailSenderService;
 	}
 
 	@Override
-	public List<Candicate> getAll() {
+	public DataResult<List<Employer>> getAll() {
 		// TODO Auto-generated method stub
-		return null;
+		return new SuccessDataResult<List<Employer>>(_employerDao.findAll(),"şirketler listelendi");
 	}
 
 	@Override

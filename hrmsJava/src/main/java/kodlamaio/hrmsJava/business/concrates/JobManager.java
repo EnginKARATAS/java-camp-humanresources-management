@@ -28,7 +28,11 @@ public class JobManager implements JobService {
 
 	@Override
 	public Result add(Job job) {
+		boolean isFieldsNotNull = job.getContent() != null; 
 		if(this._jobDao.findByjobTitleEquals(job.getTitle()) != null) {
+			if (condition) {
+				
+			}
 			this._jobDao.save(job);			
 			return new SuccessResult("sistemde aynı isme ait bir iş var");
 		}

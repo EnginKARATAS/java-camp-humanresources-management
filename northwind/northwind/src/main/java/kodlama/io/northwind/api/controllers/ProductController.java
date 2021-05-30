@@ -13,6 +13,7 @@ import kodlama.io.northwind.business.abstracts.ProductService;
 import kodlama.io.northwind.core.utilities.results.DataResult;
 import kodlama.io.northwind.core.utilities.results.Result;
 import kodlama.io.northwind.entities.concrates.Product;
+import kodlama.io.northwind.entities.dtos.ProductWithCategoryDto;
 import lombok.Data;
 
 @Data
@@ -36,5 +37,10 @@ public class ProductController {
 	@PostMapping("/add")
 	public Result add(@RequestBody Product product) {
 		return this.productService.add(product);
+	}
+	
+	@GetMapping("/getProductWithCategoryDto")
+	public DataResult<List<ProductWithCategoryDto>> getProductWithCategoryDetails(){
+		return	this.productService.getProductWithCategoryDetails();
 	}
 }
