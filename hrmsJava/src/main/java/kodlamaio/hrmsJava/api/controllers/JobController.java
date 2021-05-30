@@ -25,12 +25,13 @@ public class JobController {
 
  
 	@GetMapping("/getall")
-	public List<Job> getAll(){
-		return this._jobService.getAll();
+	public DataResult<List<Job>> getAll(){
+		return this.jobService.getAll();
 	}
-	@PostMapping("/getbyid")
-	public Optional<Job>  getAll(@RequestBody int id){
-		return this._jobService.findById(0);
+	@PostMapping("/add")
+	public Result add(@RequestBody Job job) {
+		return this.jobService.add(job);
+
 	}
 	
 }

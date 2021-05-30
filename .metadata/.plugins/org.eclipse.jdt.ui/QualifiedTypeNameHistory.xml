@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="core.concrate.JavaPatternCheckManager"/>
-    <fullyQualifiedTypeName name="core.abstracts.TextCheckService"/>
-    <fullyQualifiedTypeName name="Business.abstracts.EmailCheckService"/>
-    <fullyQualifiedTypeName name="Business.abstracts.CustomerValidationService"/>
-    <fullyQualifiedTypeName name="googleAuth.GoogleAuthManager"/>
     <fullyQualifiedTypeName name="Business.abstracts.AuthService"/>
     <fullyQualifiedTypeName name="org.w3c.dom.Entity"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
@@ -14,9 +9,6 @@
     <fullyQualifiedTypeName name="kodlama.io.northwind.api.controllers.ProductsController"/>
     <fullyQualifiedTypeName name="jdk.jfr.DataAmount"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.BatchSize"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.concrates.JobManager"/>
@@ -30,16 +22,10 @@
     <fullyQualifiedTypeName name="com.sun.net.httpserver.Authenticator.Result"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.business.abstracts.ProductService"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.ProductDao"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.DataResult"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.entities.concrates.Product"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.SuccessDataResult"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.SuccessResult"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.Result"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="springfox.documentation.spring.web.plugins.Docket"/>
     <fullyQualifiedTypeName name="springfox.documentation.spi.DocumentationType"/>
@@ -49,15 +35,29 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.abstracts.MailCheckService"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.abstracts.AuthService"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.core.concrates.TextCheckManager"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.dataAccess.abstracts.CandicateDao"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.abstracts.CandicateService"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.Candicate"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.abstracts.CandicateCheckService"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.entities.concrates.Product"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.DataResult"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.Result"/>
+    <fullyQualifiedTypeName name="kodlama.io.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

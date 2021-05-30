@@ -4,8 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import kodlamaio.hrmsJava.Entity.concrates.Job;
+import kodlamaio.hrmsJava.core.utilities.results.DataResult;
+import kodlamaio.hrmsJava.core.utilities.results.Result;
 
 public interface JobService {
-	List<Job> getAll();
+	DataResult<List<Job>>  getAll();
 	Optional<Job> findById(int id);
+	Result add(Job job);
 }

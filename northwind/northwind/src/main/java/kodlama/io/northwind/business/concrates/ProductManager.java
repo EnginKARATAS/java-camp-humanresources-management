@@ -28,14 +28,17 @@ public class ProductManager implements ProductService{
 
 	@Override
 	public DataResult<List<Product>> getAll() {
-		return new SuccessDataResult<List<Product>>(this.productDao.findAll(), "Data Listelendi");
+		    
+			return new SuccessDataResult<List<Product>>
+			(this.productDao.findAll(),"Data listelendi");			
 				
 	}
 
 	@Override
 	public Result add(Product product) {
 		this.productDao.save(product);
-		return new SuccessResult();
+		return new SuccessResult("Ürün eklendi");
 	}
 
+	 
 }
