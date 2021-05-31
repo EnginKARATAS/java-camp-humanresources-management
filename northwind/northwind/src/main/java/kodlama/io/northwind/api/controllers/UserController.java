@@ -37,16 +37,18 @@ public class UserController {
 		return ResponseEntity.ok(this._userService.add(user));
 	}
 	
-	//typeof() c#taydı burda .class
+	//typeof() c#taydı burda .class	
 	@ExceptionHandler(MethodArgumentNotValidException.class)
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public ErrorDataResult<Object> handleValidationExeption(MethodArgumentNotValidException exceptions){
-        Map<String,String> validationErrors = new HashMap<String, String>();
-        for(FieldError fieldError : exceptions.getBindingResult().getFieldErrors()) {
-            validationErrors.put(fieldError.getField(),fieldError.getDefaultMessage());
-        }
-        ErrorDataResult<Object> erros = new ErrorDataResult<Object>(validationErrors,"Doğrulama hataları");
-        return erros;
-
-    }
+	@ResponseStatus(HttpStatus.BAD_REQUEST)
+	public ErrorDataResult<Object> handleValidationException
+	(MethodArgumentNotValidException exceptions){
+		Map<String,String> validationErrors = new HashMap<String, String>();
+		for(FieldError fieldError : exceptions.getBindingResult().getFieldErrors()) {
+			validationErrors.put(fieldError.getField(), fieldError.getDefaultMessage());
+		}
+		
+		ErrorDataResult<Object> errors 
+		= new ErrorDataResult<Object>(validationErrors,"Doğrulama hataları");
+		return errors;
+	}
 }
