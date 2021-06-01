@@ -61,4 +61,5 @@ Business -İş kurallarının yazılı olduğu paket
 Core Projemizin ortak katmanı olarak ifade edilir
 API -Kullanıcı ile iletişime geçildiği paket
 
-
+<h1>ERD Diyagramı</h1>
+![](erd.png)
