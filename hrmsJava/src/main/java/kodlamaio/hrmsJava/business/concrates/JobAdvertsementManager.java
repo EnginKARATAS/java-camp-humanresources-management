@@ -23,7 +23,7 @@ public class JobAdvertsementManager implements JobAdvertsementService {
 	public DataResult<List<JobAdvertsement>> getAll() {
 		return new SuccessDataResult<>(this._jobAdvertsementDao.findAll(), "bilgiler listelendi");
 	}
-
+  
 	@Override
 	public Result add(JobAdvertsement jobAdvertsement, Employer employer) {
 		this._jobAdvertsementDao.save(jobAdvertsement);

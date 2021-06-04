@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.core.utilities.results.ErrorResult"/>
-    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.core.utilities.results.Result"/>
-    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.abstracts.EmployerService"/>
-    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.Candicate"/>
-    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.dataAccess.abstracts.EmployerDao"/>
-    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.Employer"/>
-    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
-    <fullyQualifiedTypeName name="com.sun.istack.NotNull"/>
-    <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.Result"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.DataResult"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.core.dataAccess.UserDao"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.core.utilities.results.SuccessResult"/>
@@ -35,20 +26,8 @@
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.entities.concrates.Product"/>
     <fullyQualifiedTypeName name="kodlama.io.northwind.entities.dtos.ProductWithCategoryDto"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.Job"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.business.abstracts.JobAdvertsementService"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -57,7 +36,28 @@
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.core.utilities.results.SuccessDataResult"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.core.utilities.results.SuccessResult"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.JobAdvertsement"/>
+    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.Employer"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.sun.istack.NotNull"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.reader.Candidate"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.LanguageCandidate"/>
+    <fullyQualifiedTypeName name="javax.persistence.PrimaryKeyJoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="kodlamaio.hrmsJava.Entity.concrates.SchoolCandidate"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
 </qualifiedTypeNameHistroy>
