@@ -19,10 +19,7 @@ import lombok.NoArgsConstructor;
 	@NoArgsConstructor
 	@Table(name = "languages_candidates")
 	public class SchoolCandidate {
-		
-		
-	    @Column(name="cv_id")
-	    private int cvId;
+ 
 	    
 	    @Column(name="school_id")
 	    private int schoolId;

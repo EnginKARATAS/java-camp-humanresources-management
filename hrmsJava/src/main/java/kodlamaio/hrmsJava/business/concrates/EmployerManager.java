@@ -2,7 +2,6 @@ package kodlamaio.hrmsJava.business.concrates;
 
 import java.util.List;
 
-import kodlamaio.hrmsJava.Entity.concrates.Candicate;
 import kodlamaio.hrmsJava.Entity.concrates.Employer;
 import kodlamaio.hrmsJava.business.abstracts.EmployerService;
 import kodlamaio.hrmsJava.business.abstracts.SystemUserValidationService;
@@ -34,9 +33,9 @@ public class EmployerManager implements EmployerService {
 	@Override
 	public Result add(Employer employer) {
 		// TODO Auto-generated method stub
-		boolean isFieldsNotNull = employer.getCompanyName() != null && employer.getPhoneNumber() != null && employer.getWebSite() != null && employer.getCompanyName() != null && employer.getMail() != null;
+		boolean isFieldsNotNull = employer.getCompanyName() != null && employer.getPhoneNumber() != null && employer.getWebSite() != null && employer.getCompanyName() != null && employer.getEmail() != null;
 		if (isFieldsNotNull) {
-			if (TextCheckManager.isEmaiValid(employer.getMail())) {
+			if (TextCheckManager.isEmaiValid(employer.getEmail())) {
 				if (_systemUserValidationService.isSystemUserConfirmed(employer)) {
 					return new SuccessResult("kullanıcı eklendi");
 				}

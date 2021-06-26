@@ -13,21 +13,19 @@ import javax.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+@Data
 @Entity
 @Table(name="products")
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
 	
-
-		@Id
-	    @GeneratedValue( strategy = GenerationType.IDENTITY ) //sqllere göre değişir. strategy = GenerationType.IDENTITY, postgre tarafından identity verilecek anlamındadır.
+	    @Id
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    @Column(name="product_id")
 		private int id;
 	    
-	    //@Column(name="category_id") //aşağıda joincolumn yazdıktan sonra bunları yazmaya gerek kalmadı
+	    //@Column(name="category_id")
 		//private int categoryId;
 	    
 	    @Column(name="product_name")
@@ -42,8 +40,8 @@ public class Product {
 	    @Column(name="quantity_per_unit")
 		private String quantityPerUnit;
 	    
-	    @ManyToOne
+	    @ManyToOne()
 	    @JoinColumn(name="category_id")
 	    private Category category;
- 
+	
 }

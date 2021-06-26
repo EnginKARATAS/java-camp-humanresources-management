@@ -1,7 +1,8 @@
 package kodlamaio.hrmsJava.core.abstracts;
 
-import kodlamaio.hrmsJava.Entity.concrates.Candicate;
+
+import kodlamaio.hrmsJava.Entity.concrates.Candidate;
 
 public interface MailSenderService {
-	void sendToken(Candicate candicate, String token);
+	void sendToken(Candidate candidate, String token);
 }

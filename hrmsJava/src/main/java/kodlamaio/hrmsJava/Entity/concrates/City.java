@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -21,7 +22,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Table(name = "cities")
 @Entity
-@JsonIgnoreProperties({ "hibernateLazyInitializer", "handler", "jobAdvertisement" })
 public class City {
 
 	@Id
@@ -35,5 +35,7 @@ public class City {
 
 	@OneToMany(mappedBy = "city")
 	private List<JobAdvertsement> jobAdvertisement;
+	
+ 
 
 }

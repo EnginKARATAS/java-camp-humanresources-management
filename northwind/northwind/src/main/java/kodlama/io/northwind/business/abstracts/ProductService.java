@@ -11,6 +11,8 @@ import kodlama.io.northwind.entities.dtos.ProductWithCategoryDto;
 
 public interface ProductService {
     DataResult<List<Product>> getAll();
+    DataResult<List<Product>> getAllSorted();
+    DataResult<List<Product>> getAll(int pageNo, int pageSize);
     Result add(Product product);
    
     DataResult<Product> getByProductName(String productName);
@@ -28,5 +30,6 @@ public interface ProductService {
     DataResult<List<Product>> getByNameAndCategory(String productName, int categoryId);
     
     DataResult<List<ProductWithCategoryDto>> getProductWithCategoryDetails();
-
+    
+    
 }

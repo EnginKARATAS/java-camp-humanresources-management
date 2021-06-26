@@ -1,17 +1,14 @@
 package kodlamaio.hrmsJava.core.adapters.concrates;
 
  
-import kodlamaio.hrmsJava.Entity.concrates.Candicate;
-import kodlamaio.hrmsJava.core.adapters.abstracts.CandicateCheckService;
+import kodlamaio.hrmsJava.Entity.concrates.Candidate;
 
-public class MernisValidationAdapter implements CandicateCheckService {
 
-	@Override
-	public boolean isUserExist(Candicate candicate) {
+public class MernisValidationAdapter{
+
+	public boolean isUserExist(Candidate candidate) {
 		// TODO Auto-generated method stub
 		System.out.println("mernis okey verdi");
 		return true;
 	}
-
- 
 }

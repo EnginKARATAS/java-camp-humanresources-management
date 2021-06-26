@@ -19,7 +19,7 @@ public class UserManager implements UserService{
 	@Override
 	public Result add(User user) {
 		this._userDao.save(user);
-		return new SuccessResult("kullanıcı eklendi")
+		return new SuccessResult("kullanıcı eklendi");
 	}
 
 	@Override
