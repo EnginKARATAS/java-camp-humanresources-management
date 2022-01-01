@@ -38,7 +38,7 @@ public class EmployerManager implements EmployerService {
 			if (TextCheckManager.isEmaiValid(employer.getEmail())) {
 				if (_systemUserValidationService.isSystemUserConfirmed(employer)) {
 					return new SuccessResult("kullanıcı eklendi");
-				}
+				} 
 			}
 			else {
 				return new ErrorResult("email biçimi yanlış");	

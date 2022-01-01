@@ -32,7 +32,7 @@ public class JobManager implements JobService {
 		if(this._jobDao.findByjobTitleEquals(job.getTitle()) != null) {
 
 			this._jobDao.save(job);			
-			return new SuccessResult("sistemde aynı isme ait bir iş var");
+			return new SuccessResult("Kayıtlanma Başarılı");
 		}
 		else {
 			return new ErrorResult("sistemde aynı isme ait bir iş var");
